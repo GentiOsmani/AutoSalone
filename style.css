@@ -1,6 +1,6 @@
 body {
-    background-color: #000000; /* Dark blue background */
-    color: #ffffff; /* White text */
+    background-color: #000000;
+    color: #ffffff; 
 }
 
 .overlay {
@@ -9,9 +9,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    background: rgba(0, 0, 0, 0.5); 
     display: none;
-    z-index: 99; /* Make sure it's above the sidebar */
+    z-index: 99; 
 }
 
 .overlay.show {
@@ -28,7 +28,7 @@ body {
 }
 
 .card {
-    background-color: #343434; /* Dark gray card background */
+    background-color: #343434; 
     border: 1px solid #ffffff;
     color: #ffffff;
     transition: background-color 0.3s, border 0.3s;
@@ -36,7 +36,7 @@ body {
 }
 
 .card:hover {
-    background-color: #505050; /* Lighter gray on hover */
+    background-color: #505050; 
     border: 1px solid #6d6d6d;
     transform: scale(1.002);
     box-shadow: 1px 1px 36px -21px rgba(255,255,255,0.75);
@@ -97,12 +97,11 @@ body {
 
 .btn:hover {
     color: #ffffff;
-    background-color: #6c757d; /* Brighter gray on hover */
+    background-color: #6c757d; 
 }
 
 /* SIDEBAR */
 
-/* Google Fonts Import Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
   margin: 0;
